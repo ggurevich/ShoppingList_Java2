@@ -3,7 +3,7 @@ INSERT INTO shoppinglist.users (email, password, full_name, active, created_utc,
 
 
 INSERT INTO shoppinglist.shopping_lists (user_id, name, color, created_utc, modified_utc) VALUES (1, 'Shopping List for User 1', '#000000', '2016-11-30 10:25:00', '2016-11-30 10:25:00');
-INSERT INTO heroku_5e006be6efd68c2.shopping_lists (user_id, name, color, created_utc, modified_utc) VALUES (2, 'Shopping List for User 2', '#000000', '2016-11-30 10:25:00', '2016-11-30 10:25:00');
+
 
 INSERT INTO shoppinglist.shopping_list_item_priorities (name, created_utc, modified_utc) VALUES ('It can wait', '2016-11-30 10:25:00', '2016-11-30 10:25:00');
 INSERT INTO shoppinglist.shopping_list_item_priorities (name, created_utc, modified_utc) VALUES ('Need it soon', '2016-11-30 10:25:00', '2016-11-30 10:25:00');
